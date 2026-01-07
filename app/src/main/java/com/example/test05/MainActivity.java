@@ -19,9 +19,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tv = findViewById(R.id.tv);
     }
-
+    int x;
     public void clicked(View view) {
-        tv.setText("Oh, yea, I’ve been clicked!");
+        x++;
+        tv.setText("This is a click number: "+x);
 
 
 
